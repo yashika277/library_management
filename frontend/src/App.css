@@ -1,0 +1,99 @@
+.view-books {
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 5px 20px 5px 20px;
+  color: white;
+  font-size: 20px;
+
+}
+
+body {
+  background-color: rgb(149, 183, 183) !important;
+}
+
+.text-element {
+  font-size: 70px; 
+  font-weight: bold;  
+  color: transparent;  
+  background: url('./library_books/bookImg.jpg') no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text;  
+  background-clip: text;
+}
+
+.book_form {
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* height: 100vh; */
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./library_books/background.jpg') center/cover no-repeat;
+}
+
+.book-form {
+  width: 400px;
+  height: auto;
+  padding: 25px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+/* book-section */
+.book-section {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* .card-img-top{
+  width: 100%;
+  height: auto;
+} */
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.btn-danger {
+  background-color: rgb(38, 35, 35) !important;
+}
+
+p {
+  margin-bottom: 8px !important;
+}
+
+.card-img-top {
+  width: 90% !important;
+  align-self: center;
+}
